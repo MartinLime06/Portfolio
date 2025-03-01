@@ -1,4 +1,5 @@
-import { faArrowRight, faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faGlobe, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Work() {
@@ -6,43 +7,65 @@ function Work() {
   <div id="work">
     <div className="flex justify-between items-center">
     <h1 className="font-sans text-5xl font-bold lg:mr-30 lg:ml-30 lg:p-10">Mitt Arbeid</h1>
-    <button className='bg-zinc-900 px-10 py-4 rounded-lg border-1 border-gray-500 cursor-pointer hover:bg-zinc-800 animate-pulse lg:mr-40'><a href="https://github.com/MartinLime06" target="_blank">Alle Projekter  <FontAwesomeIcon icon={faChevronRight} /></a></button>
+    <a href="https://github.com/MartinLime06" target="_blank"><button className='bg-zinc-900 px-10 py-4 rounded-lg border-1 border-gray-500 cursor-pointer hover:bg-zinc-800 animate-pulse lg:mr-40'>Alle Projekter  <FontAwesomeIcon icon={faChevronRight} /></button></a>
     </div>
-    <div className="gap-5 grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 lg:mr-40 lg:ml-40 lg:p-5">
+    <div className="gap-5 flex flex-wrap justify-center lg:mr-40 lg:ml-40 lg:p-5">
 
-        <div className="bg-neutral-800 flex flex-col p-3 rounded-xl w-150">
-            <div className="flex justify-center items-center">
-            <img className="w-140 rounded-xl" src="/dashboard.png" alt="React logo" width="50" />
+        <div className="border-1 border-neutral-800 flex flex-col p-0 rounded-xl w-120 h-auto">
+            <div className="flex justify-center items-center p-0 m-0 overflow-hidden w-full h-50">
+                <img src="/dashboard.png" className="object-fit object-top h-auto w-full" alt="project image" />
             </div>
             <div>
-            <h2 className="text-3xl p-5">Dashboard</h2>
-            <div className="flex justify-space p-2">
-            <div className="flex gap-2 flex-wrap basis-2/3">
-                <button className="rounded-lg bg-zinc-800 px-4 py-2 opacity-75 hover:opacity-100 border-1 border-zinc-600 h-12">Typescript</button>
-                <button className="rounded-lg bg-zinc-800 px-4 py-2 opacity-75 hover:opacity-100 border-1 border-zinc-600 h-12">Vite</button>
-                <button className="rounded-lg bg-zinc-800 px-4 py-2 opacity-75 hover:opacity-100 border-1 border-zinc-600 h-12">TailwindCSS</button>
+            <h2 className="text-2xl font-bold p-5">Dashboard</h2>
+            <div className="flex justify-space pb-5 ml-5 mr-5">
+            <div className="flex gap-2 flex-wrap">
+                <button className="text-sm rounded-2xl bg-zinc-900 px-2 py-1 opacity-75 hover:opacity-100 border-1 border-zinc-800">Typescript</button>
+                <button className="text-sm rounded-2xl bg-zinc-900 px-2 py-1 opacity-75 hover:opacity-100 border-1 border-zinc-800">Vite</button>
+                <button className="text-sm rounded-2xl bg-zinc-900 px-2 py-1 opacity-75 hover:opacity-100 border-1 border-zinc-800">TailwindCSS</button>
+                <button className="text-sm rounded-2xl bg-zinc-900 px-2 py-1 opacity-75 hover:opacity-100 border-1 border-zinc-800">SQL</button>
             </div>
-            <div className="basis-1/3 flex justify-end items-center">
-                <button className="bg-sky-500 py-4 px-5 rounded-lg cursor-pointer hover:bg-sky-600"><FontAwesomeIcon className="dark:text-zinc-900" icon={faArrowRight} /></button>
             </div>
+            <div className="flex justify-center items-center gap-5 m-5">
+                <button className="dark:bg-zinc-900 dark:text-slate-100 py-4 px-5 rounded-xl cursor-pointer hover:bg-zinc-700 hover:text-gray-100"><a href="https://github.com/MartinLime06/Dashboard.TangenLab" target="_blank"><FontAwesomeIcon className="dark:text-slate-100" icon={faGithub} /> Code</a></button>
+                <button className="dark:text-sky-500 py-4 px-5 rounded-xl cursor-pointer hover:bg-sky-500 hover:text-gray-100"><a href="https://dashboard.tangenlab.no" target="_blank"><FontAwesomeIcon className="dark:text-sky-500" icon={faGlobe} /> WebSite</a></button>
             </div>
             </div>
         </div>
 
-        <div className="bg-neutral-800 flex flex-col p-3 rounded-xl w-150">
-            <div className="flex justify-center items-center">
-            <img className="w-140 rounded-xl" src="/dashboard.png" alt="React logo" width="50" />
+        <div className="border-1 border-neutral-800 flex flex-col p-0 rounded-xl w-120 h-auto">
+            <div className="flex justify-center items-center p-0 m-0 overflow-hidden w-full h-50">
+                <img src="/tangenlab.png" className="object-fit object-top h-auto w-full" alt="project image" />
             </div>
             <div>
-            <h2 className="text-3xl p-5">Portal</h2>
-            <div className="flex justify-space p-2">
-            <div className="flex gap-2 flex-wrap basis-2/3">
-                <button className="rounded-lg bg-zinc-800 px-4 py-2 opacity-75 hover:opacity-100 border-1 border-zinc-600 h-12">Typescript</button>
-                <button className="rounded-lg bg-zinc-800 px-4 py-2 opacity-75 hover:opacity-100 border-1 border-zinc-600 h-12">Vite</button>
+            <h2 className="text-2xl font-bold p-5">Old Portfolio</h2>
+            <div className="flex justify-space pb-5 ml-5 mr-5">
+            <div className="flex gap-2 flex-wrap">
+                <button className="text-sm rounded-2xl bg-zinc-900 px-2 py-1 opacity-75 hover:opacity-100 border-1 border-zinc-800">Typescript</button>
+                <button className="text-sm rounded-2xl bg-zinc-900 px-2 py-1 opacity-75 hover:opacity-100 border-1 border-zinc-800">CSS</button>
             </div>
-            <div className="basis-1/3 flex justify-end items-center">
-                <button className="bg-sky-500 py-4 px-5 rounded-lg cursor-pointer hover:bg-sky-600"><FontAwesomeIcon className="dark:text-zinc-900" icon={faArrowRight} /></button>
             </div>
+            <div className="flex justify-center items-center gap-5 m-5">
+                <button className="dark:bg-zinc-900 dark:text-slate-100 py-4 px-5 rounded-xl cursor-pointer hover:bg-zinc-700 hover:text-gray-100"><a href="https://github.com/MartinLime06/Dashboard.TangenLab" target="_blank"><FontAwesomeIcon className="dark:text-slate-100" icon={faGithub} /> Code</a></button>
+                <button className="dark:text-sky-500 py-4 px-5 rounded-xl cursor-pointer hover:bg-sky-500 hover:text-gray-100"><a href="https://dashboard.tangenlab.no" target="_blank"><FontAwesomeIcon className="dark:text-sky-500" icon={faGlobe} /> WebSite</a></button>
+            </div>
+            </div>
+        </div>
+
+        <div className="border-1 border-neutral-800 flex flex-col p-0 rounded-xl w-120 h-auto">
+            <div className="flex justify-center items-center p-0 m-0 overflow-hidden w-full h-50">
+                <img src="/tangenretail.png" className="object-fit object-top h-auto w-full" alt="project image" />
+            </div>
+            <div>
+            <h2 className="text-2xl font-bold p-5">TangenRetail</h2>
+            <div className="flex justify-space pb-5 ml-5 mr-5">
+            <div className="flex gap-2 flex-wrap">
+                <button className="text-sm rounded-2xl bg-zinc-900 px-2 py-1 opacity-75 hover:opacity-100 border-1 border-zinc-800">HTML</button>
+                <button className="text-sm rounded-2xl bg-zinc-900 px-2 py-1 opacity-75 hover:opacity-100 border-1 border-zinc-800">CSS</button>
+            </div>
+            </div>
+            <div className="flex justify-center items-center gap-5 m-5">
+                <button className="dark:bg-zinc-900 dark:text-slate-100 py-4 px-5 rounded-xl cursor-pointer hover:bg-zinc-700 hover:text-gray-100"><a href="https://github.com/MartinLime06/TangenRetail" target="_blank"><FontAwesomeIcon className="dark:text-slate-100" icon={faGithub} /> Code</a></button>
+                <button className="dark:text-sky-500 py-4 px-5 rounded-xl cursor-pointer hover:bg-sky-500 hover:text-gray-100"><a href="https://Tangenretail.no" target="_blank"><FontAwesomeIcon className="dark:text-sky-500" icon={faGlobe} /> WebSite</a></button>
             </div>
             </div>
         </div>
