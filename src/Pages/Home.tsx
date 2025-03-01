@@ -1,15 +1,16 @@
 import React from 'react';
 import Navbar from '../Components/Navbar';
+import About from '../Components/About';
+import Work from '../Components/Work';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight, faDownload } from '@fortawesome/free-solid-svg-icons';
-import { faReact, faGitAlt } from '@fortawesome/free-brands-svg-icons';
 
 
 const Home: React.FC = () => {
     return (
         <div>
             <Navbar />
-            <div className='flex flex-col justify-center items-center h-screen'>
+            <div className='flex flex-col justify-center items-center h-screen' id='header'>
                 <div className='flex flex-col items-center'>
                     <p className=''>BASED IN NORWAY</p>
                     <h1 className='text-7xl font-bold p-5'>Full Stack <span className='text-sky-500'>Web Developer</span></h1>
@@ -20,30 +21,8 @@ const Home: React.FC = () => {
                     <a href='../assets/react.svg' className='my-4 mx-10 cursor-pointer hover:opacity-75'><FontAwesomeIcon icon={faDownload} className='text-sky-500'/> Last Ned CV</a>
                 </div>
             </div>
-            <div className='flex items-center justify-center gap-10 m-10'>
-            <div className='flex justify-center items-center gap-5 bg-zinc-800 rounded-lg'>
-                <div className='flex flex-row justify-center items-center gap-5 m-5'>
-                    <div>
-                    <FontAwesomeIcon icon={faReact} />
-                    </div>
-                    <div>
-                        <h2 className='text-lg'>React</h2>
-                        <p>Jeg bruker pimært react typescript</p>
-                    </div>
-                </div>
-            </div>
-            <div className='flex justify-center items-center gap-5 bg-zinc-800 rounded-lg'>
-                <div className='flex flex-row justify-center items-center gap-5 m-5'>
-                    <div className='px-5 py-4 bg-orange-800 rounded-lg'>
-                    <FontAwesomeIcon icon={faGitAlt} />
-                    </div>
-                    <div>
-                        <h2 className='text-lg'>Git</h2>
-                        <p>Jeg bruker git for versjons kontroll</p>
-                    </div>
-                </div>
-            </div>
-            </div>
+            <About />
+            <Work />
         </div>
     );
 };
