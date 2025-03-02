@@ -7,6 +7,7 @@ function Navbar() {
             <button><Link to='header' className='hover:opacity-75 cursor-pointer'>Hjem</Link></button>
             <button><Link to='about' className='hover:opacity-75 cursor-pointer'>Om Meg</Link></button>
             <button><Link to='work' className='hover:opacity-75 cursor-pointer'>Arbeid</Link></button>
+            <button><Link to='services' className='hover:opacity-75 cursor-pointer'>Tjenester</Link></button>
             <button><Link to='contact' className='hover:opacity-75 cursor-pointer'>Kontakt</Link></button>
           </div>
        </div>
