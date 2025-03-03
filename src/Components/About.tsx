@@ -1,7 +1,7 @@
 function About() {
     return(
-        <div id="about">
-        <div className='ml-10 lg:ml-40'>
+        <div id="about" className="flex justify-center items-center flex-col">
+        <div className='flex flex-col items-left lg:w-3/5'>
                 <h1 className='font-sans text-5xl font-bold'>Kode erfaring</h1>
                 <p className='opacity-75 mt-2'>Under er en liste over kodespråk og andre apper jeg har erfaring med</p>
             </div>
