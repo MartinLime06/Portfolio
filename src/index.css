@@ -6,11 +6,12 @@
   --color-bermuda: #78dcca;
   --color-black: #000000;
   --color-white: #ffffff;
+  --color-technology: #000000;
 
-  --animate-infinite-scroll: infinite-scroll 40s linear infinite;  
+  --animate-infinite-scroll: infinite-scroll 25s linear infinite;  
   @keyframes infinite-scroll {    
     0% { transform: translateX(0); }
-    100% { transform: translateX(-100%); }  
+    100% { transform: translateX(calc(-100% - 20px)); }  
     }
 
 
