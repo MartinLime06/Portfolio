@@ -1,7 +1,7 @@
 function About() {
     return (
       <div id="about" className="flex justify-center items-center flex-col gap-5">
-        <div className="flex flex-col items-left lg:w-3/5">
+        <div className="flex flex-col items-left lg:w-3/5 p-5">
           <h1 className="font-sans text-2xl lg:text-5xl font-bold">Teknologi</h1>
           <p className="opacity-75 mt-2 text-sm lg:text-base">
             Under er en liste over kodespråk og andre apper jeg har erfaring med
@@ -9,14 +9,14 @@ function About() {
         </div>
         <div className="flex lg:mb-40 lg:w-300 w-screen overflow-hidden rounded-2xl gap-5 z-90">
           <div className="flex gap-5 mb-10 mt-10 animate-infinite-scroll z-50">
-            <div className="flex justify-start items-center gap-5 bg-technology rounded-2xl lg:w-75">
+            <div className="flex justify-start items-center gap-5 bg-technology rounded-2xl lg:w-75 w-50">
               <div className="flex flex-row justify-center items-center gap-5 m-4">
                 <div className="flex items-center justify-center p-2 bg-cyan-300/20 shadow-md rounded-lg">
                   <img src="/react-native.svg" width="50" alt="React logo" />
                 </div>
                 <div>
-                  <h2 className="text-lg">React</h2>
-                  <p className="opacity-90 text-sm">Javascript Biblotek</p>
+                  <h2 className="lg:text-lg text-sm">React</h2>
+                  <p className="opacity-90 lg:text-sm text-xs">Javascript Biblotek</p>
                 </div>
               </div>
             </div>
@@ -27,8 +27,8 @@ function About() {
                   <img src="/git.svg" width="50" alt="Git logo" />
                 </div>
                 <div>
-                  <h2 className="text-lg">Git</h2>
-                  <p className="opacity-90 text-sm">Versjons Kontroll</p>
+                  <h2 className="text-sm lg:text-lg">Git</h2>
+                  <p className="opacity-90 text-xs lg:text-sm">Versjons Kontroll</p>
                 </div>
               </div>
             </div>
@@ -39,8 +39,8 @@ function About() {
                   <img src="/tailwindcss.svg" width="50" alt="Tailwind logo" />
                 </div>
                 <div>
-                  <h2 className="text-lg">Tailwind</h2>
-                  <p className="opacity-90 text-sm">CSS/Styling</p>
+                  <h2 className="text-sm lg:text-lg">Tailwind</h2>
+                  <p className="opacity-90 text-xs lg:text-sm">CSS/Styling</p>
                 </div>
               </div>
             </div>
@@ -51,8 +51,8 @@ function About() {
                   <img src="/typescript.svg" width="50" alt="TypeScript logo" />
                 </div>
                 <div>
-                  <h2 className="text-lg">TypeScript</h2>
-                  <p className="opacity-90 text-sm">
+                  <h2 className="text-sm lg:text-lg">TypeScript</h2>
+                  <p className="opacity-90 text-xs lg:text-sm">
                     Bedre versjon av Javascript
                   </p>
                 </div>
@@ -65,8 +65,8 @@ function About() {
                   <img src="/python.svg" width="50" alt="Python logo" />
                 </div>
                 <div>
-                  <h2 className="text-lg">Python</h2>
-                  <p className="opacity-90 text-sm">
+                  <h2 className="text-sm lg:text-lg">Python</h2>
+                  <p className="opacity-90 text-xs lg:text-sm">
                     For AI og windows scripts
                   </p>
                 </div>
@@ -83,8 +83,8 @@ function About() {
                   />
                 </div>
                 <div>
-                  <h2 className="text-lg">PHP</h2>
-                  <p className="opacity-90 text-sm">
+                  <h2 className="text-sm lg:text-lg">PHP</h2>
+                  <p className="opacity-90 text-xs lg:text-sm">
                     For AI og windows scripts
                   </p>
                 </div>
