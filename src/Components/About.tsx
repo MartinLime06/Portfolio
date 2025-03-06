@@ -7,7 +7,7 @@ function About() {
             Under er en liste over kodespråk og andre apper jeg har erfaring med
           </p>
         </div>
-        <div className="flex lg:mb-40 w-300 overflow-hidden rounded-2xl gap-5 z-90">
+        <div className="flex lg:mb-40 lg:w-300 w-screen overflow-hidden rounded-2xl gap-5 z-90">
           <div className="flex gap-5 mb-10 mt-10 animate-infinite-scroll z-50">
             <div className="flex justify-start items-center gap-5 bg-technology rounded-2xl lg:w-75">
               <div className="flex flex-row justify-center items-center gap-5 m-4">
