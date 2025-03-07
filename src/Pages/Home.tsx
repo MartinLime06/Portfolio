@@ -12,7 +12,7 @@ import Services from '../Components/Services';
 const Home: React.FC = () => {
     return (
         <div className='bg-black text-white'>
-                <div className='relative left-50 bg-white h-30 w-300 rotate-35 opacity-20 rounded-full shadow-2xl shadow-white z-10 blur-2xl'></div>
+                <div className='relative md:hidden left-0 bg-white lg:h-30 h-30 lg:w-300 w-100 rotate-35 opacity-20 rounded-full shadow-2xl shadow-white z-10 blur-2xl'></div>
             <Navbar />
             <div className='flex flex-col justify-center items-center h-[50vh] z-50' id='header'>
                 <div className='flex flex-col items-center'>
@@ -22,7 +22,7 @@ const Home: React.FC = () => {
                     <p className='text-sm lg:text-xl text-zinc-500'>Hei jeg er Martin Tangen, jeg lager høyt funksjonele nettsider og web apper</p>
                 </div>
                 <div className='m-5'>
-                    <Link to='work'><button className='bg-sky-500/40 px-10 py-4 rounded-lg cursor-pointer hover:bg-sky-800 text-sm lg:text-base'>Mitt Arbeid  <FontAwesomeIcon icon={faChevronRight} /></button></Link>
+                    <Link to='work'><button className='bg-sky-500/40 lg:px-10 px-6 py-3 lg:py-4 rounded-lg cursor-pointer hover:bg-sky-800 text-sm lg:text-base'>Mitt Arbeid  <FontAwesomeIcon icon={faChevronRight} /></button></Link>
                     <a href='/CV.docx' className='my-4 mx-10 cursor-pointer hover:opacity-75 text-sm lg:text-base'><FontAwesomeIcon icon={faDownload} className='text-sky-500'/> Last Ned CV</a>
                 </div>
             </div>
