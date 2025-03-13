@@ -11,7 +11,7 @@ function Work() {
     </div>
     <div className="gap-5 flex flex-wrap justify-center lg:mr-40 lg:ml-40 lg:p-5">
         <div className="border-1 border-neutral-800 flex flex-col p-0 rounded-xl lg:w-120 w-90 h-auto">
-            <div className="flex justify-center items-center p-0 m-0 overflow-hidden w-full h-50">
+            <div className="flex justify-center items-center p-0 m-0 overflow-hidden w-full h-60">
                 <img src="/dashboard.png" className="blur-sm object-fit object-top h-auto w-full" alt="project image" />
             </div>
             <div>
@@ -31,7 +31,7 @@ function Work() {
         </div>
 
         <div className="border-1 border-neutral-800 flex flex-col pd-xl lg:w-120 w-90 h-auto rounded-xl">
-            <div className="flex justify-center items-center p-0 m-0 overflow-hidden w-full h-50">
+            <div className="flex justify-center items-center p-0 m-0 overflow-hidden w-full h-60">
                 <img src="/tangenlab.png" className="object-fit object-top h-auto w-full" alt="project image" />
             </div>
             <div>
@@ -49,7 +49,7 @@ function Work() {
         </div>
 
         <div className="border-1 border-neutral-800 flex flex-col pd-xl w-90 lg:w-120 h-auto rounded-xl">
-            <div className="flex justify-center items-center p-0 m-0 overflow-hidden w-full h-50">
+            <div className="flex justify-center items-center p-0 m-0 overflow-hidden w-full h-60">
                 <img src="/tangenretail.png" className="object-fit object-top h-auto w-full" alt="project image" />
             </div>
             <div>
