@@ -15,11 +15,11 @@ This is the source code for my personal portfolio website. It showcases my skill
 
 1. Clone the repository:
   ```sh
-  git clone https://github.com/MartinLime06/Martin.Portfolio.git
+  git clone https://github.com/MartinLime06/Portfolio.git
   ```
 2. Navigate to the project directory:
   ```sh
-  cd Martin.Portfolio
+  cd Portfolio
   ```
 3. Install the dependencies:
   ```sh
