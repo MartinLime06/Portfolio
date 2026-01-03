@@ -23,13 +23,6 @@ const projects = [
         techStack: ["Typescript", "Vite", "TailwindCSS"],
         codeLink: "https://github.com/MartinLime06/tangenretail",
         websiteLink: "https://tangenretail.apps.tl.tangenlab.no"
-    },
-    {
-        title: "TangenTest-2",
-        image: "/tangenretail.png",
-        techStack: ["Typescript", "Vite", "TailwindCSS"],
-        codeLink: "https://github.com/MartinLime06/tangenretail",
-        websiteLink: "https://tangenretail.apps.tl.tangenlab.no"
     }
 ];
 function Work() {
