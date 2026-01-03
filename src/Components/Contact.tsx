@@ -32,8 +32,8 @@ function Contact() {
     </div>*/}
     <h1 className="font-sans text-2xl lg:text-5xl font-bold ml-5">Kontakt</h1>
     <div className="flex flex-row gap-10 text-lg lg:text-2xl">
-    <h2 className=""><span className="font-bold text-blue-300">Telefon:</span> +47 475 08 130</h2>
-    <h2 className=""><span className="font-bold text-blue-300">E-post:</span> martin.tangen@tangenlab.no</h2>
+    <h2 className=""><span className="font-bold text-orange-500">Telefon:</span> +47 475 08 130</h2>
+    <h2 className=""><span className="font-bold text-orange-500">E-post:</span> martin.tangen@tangenlab.no</h2>
     </div>
     </div>
   );

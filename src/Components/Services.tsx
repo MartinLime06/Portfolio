@@ -31,7 +31,7 @@ function Services(){
             <div key={index} className="border-1 border-neutral-800 flex flex-col p-5 rounded-xl lg:w-120 w-90 h-auto hover:bg-neutral-400/20"> 
                 <div className="flex flex-col gap-2">
                     <div className="flex flex-row justify-between items-center">
-                        <h2 className="text-xl font-bold text-sky-300">{service.title}</h2>
+                        <h2 className="text-xl font-bold text-orange-500">{service.title}</h2>
                         <FontAwesomeIcon icon={service.icon as IconProp} />
                     </div>
                     <p>{service.description}</p>
